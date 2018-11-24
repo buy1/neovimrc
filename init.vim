@@ -11,7 +11,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'w0rp/ale'
-Plug 'terryma/vim-multiple-cursors'
 Plug 'https://github.com/tpope/vim-repeat.git'
 Plug 'https://github.com/tpope/vim-surround.git'
 call plug#end()
@@ -38,6 +37,8 @@ set shiftwidth=4
 command! -complete=file -nargs=1 Rpdf :r !pdftotext -nopgbrk <q-args> -
 command! -complete=file -nargs=1 Rpdf :r !pdftotext -nopgbrk <q-args> - |fmt -csw78
 "" KeyBindings
+nnoremap <C-i> i_<Esc>r
+
 nmap <C-K> :NERDTreeToggle<CR>
 nmap <C-P> :Files<CR>
 

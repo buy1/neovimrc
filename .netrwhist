@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/bhuang/Desktop/cmps128_the20buddies3'
+let g:netrw_dirhist_2='/Users/bhuang/.vim'
+let g:netrw_dirhist_3='/Users/bhuang/.vim/plugged'
+let g:netrw_dirhist_4='/Users/bhuang/.vim/plugged/night-owl.vim'
